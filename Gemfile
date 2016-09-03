@@ -26,7 +26,7 @@ gem 'rolify'
 gem "paranoia", "~> 2.0"
 
 # For Pagination
-gem 'will_paginate', '~> 3.1.0'
+# gem 'will_paginate', '~> 3.1.0'
 
 gem 'roo'
 
@@ -47,6 +47,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+
+gem 'rails_12factor', group: :production
+# spree gem
+
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
